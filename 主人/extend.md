@@ -553,7 +553,7 @@ php artisan admin:import Dcat\Admin\Extension\Gank\Gank
 
 <a name="enable"></a>
 ### 启用扩展
-扩展的启用与否是通过配置文件控制的，打开`/config/admin-extension.php`，加入以下代码：
+扩展的启用与否是通过配置文件控制的，打开`/config/admin-extensions.php`，加入以下代码：
 ```php
 return [
     'gank' => [
